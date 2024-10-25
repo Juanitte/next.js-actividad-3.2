@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import MenuPrincipal from "@/components/menu-principal";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,9 +27,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex min-h-screen bg-white`}
       >
+        <aside>
+          <MenuPrincipal />
+        </aside>
+        <main className="mx-2 pb-6 grow  overflow-y-auto">
         {children}
+        </main>
       </body>
     </html>
   );

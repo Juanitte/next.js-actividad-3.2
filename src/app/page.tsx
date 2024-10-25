@@ -16,7 +16,7 @@ export default function Home() {
       <Nav pos={0}/>
       <div className="flex flex-row pb-2">
         <div className="flex flex-col">
-          <p className="text-black pt-6 px-4 max-w-[66vw] leading-tight text-justify">
+          <p className="text-black px-4 max-w-[66vw] leading-tight text-justify">
             {HOME.p1}
           </p>
           <p className="text-black pt-3 px-4">
@@ -24,7 +24,7 @@ export default function Home() {
           </p>
         </div>
         <div className="flex flex-col">
-          <Image src={tutorAndStudent} alt="tutor and student" width={140} height={140} className="pt-8 pl-4" />
+          <Image src={tutorAndStudent} alt="tutor and student" width={140} height={140} className="pt-2 pl-4" />
           <div className="flex flex-row justify-between items-center ">
             <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.es" className="pt-2">
               <Image src={publicDomain} alt="public domain" width={70} height={60} />

@@ -26,12 +26,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex min-h-screen bg-white`}
-      >
-        <aside>
-          <MenuPrincipal />
-        </aside>
+      <body className={`${geistSans.variable} antialiased h-screen bg-white flex leading-4`} >
+        <MenuPrincipal />
         <main className="mx-2 pb-6 grow  overflow-y-auto">
         {children}
         </main>

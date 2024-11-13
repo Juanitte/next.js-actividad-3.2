@@ -8,11 +8,6 @@ const geistSans = localFont({
   variable: "--font-geist-sans",
   weight: "100 900",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -29,7 +24,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} antialiased h-screen bg-white flex leading-4`} >
         <MenuPrincipal />
         <main className="mx-2 pb-6 grow  overflow-y-auto">
-        {children}
+          {children}
         </main>
       </body>
     </html>

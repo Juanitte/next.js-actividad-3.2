@@ -243,3 +243,83 @@ export const PAGE1_2_2 = {
     table23: "Empresa e Iniciativa Emprendedora. (Cualquier ciclo formativo LOE)",
     table24: "Empresa e Iniciativa Emprendedora. (Cualquier ciclo formativo LOE)"
 }
+
+export const PAGE1_2_3 = {
+    titulo: "1.2.3.- Condiciones para convalidar Inglés",
+    p1: "La documentación a aportar varía en función del módulo Inglés que se desee convalidar. Siempre deben ser estudios cursados y superados de lengua inglesa.",
+    table1: "Módulo a convalidar",
+    table2: "Formación a aportar",
+    table3: "0156 Inglés",
+    table4: "Lengua Extranjera LOGSE (duración de 65 horas, según el Real Decreto que establece el título de formación profesional y sus enseñanzas mínimas) Cuando la lengua extranjera cursada y superada sea inglés.",
+    table5: "Lengua Extranjera LOGSE o de la C.A. Cuando la lengua extranjera cursada y superada sea inglés",
+    table6: "Módulos Profesionales de Lengua Extranjera LOGSE de ciclos formativos de Grado Superior, en cualquiera de sus denominaciones, siempre que sea la misma que la que se desea convalidar.",
+    table7: "Certificado del Ciclo Elemental, de Inglés, de la Escuela Oficial de Idiomas. (RD 967/1988, de 2 de septiembre).",
+    table8: "Certificado de Nivel Intermedio (B1), de Inglés, de la Escuela Oficial de Idiomas. (RD 1629/2006, de 29 de diciembre).",
+    table9: "Certificado de Aptitud de Inglés de la Escuela Oficial de Idiomas. (RD 967/1988, de 2 de septiembre).",
+    table10: "Certificado de Nivel Avanzado (B2), o superior, de Inglés de la Escuela Oficial de Idiomas. (RD 1629/2006, de 29 de diciembre).",
+    table11: "Título de Grado, o equivalente, en Filología Inglesa.",
+    table12: "Título de Grado, o equivalente, en Traducción e Interpretación (Inglés).",
+    table13: "0179 Inglés.",
+    table14: "0179 Inglés",
+    table15: "Lengua Extranjera LOGSE (Inglés).",
+    table16: "Lengua Extranjera (duración de 90 horas, según reales decretos por los que se establecen los títulos de formación profesional y sus enseñanzas mínimas) Cuando la lengua extranjera cursada y superada sea inglés",
+    table17: "Lengua Extranjera en Comercio Internacional. Cuando la lengua extranjera cursada y superada sea inglés.",
+    table18: "Certificado de Aptitud de Inglés de la Escuela Oficial de Idiomas. (RD 967/1988, de 2 de septiembre).",
+    table19: "Certificado de Nivel Avanzado (B2), o superior, de Inglés de la Escuela Oficial de Idiomas. (RD 1629/2006, de 29 de diciembre).",
+    table20: "Título de Grado, o equivalente, en Filología Inglesa",
+    table21: "Título de Grado, o equivalente, en Traducción e Interpretación (Inglés).",
+    pBold1: "Para saber más",
+    p2: "Por tanto, no es posible, ",
+    pBold2: "EN NINGÚN CASO",
+    p3: ", convalidar este módulo por haber cursado una asignatura universitaria relativa a este idioma."
+}
+
+export const PAGE1_2_4 = {
+    titulo: "1.2.4.- Condiciones para convalidar Segunda Lengua Extranjera",
+    p1: "Para poder convalidar el módulo de Segunda Lengua Extranjera debe aportarse siempre estudios cursados y superados en la misma lengua que se desee convalidar. Es necesario acreditar alguna de las siguientes condiciones:",
+    table1: "Módulo a convalidar",
+    table2: "Formación a aportar",
+    table3: "2ª Lengua Extranjera LOGSE",
+    table4: "MP Segunda Lengua Extranjera LOGSE, siempre que sea la misma que la que se desea convalidar.",
+    table5: "Certificado de Nivel Intermedio (B1), equivalente o superior, de la Escuela Oficial de Idiomas (RD 1629/2006, de 29 de diciembre) siempre que sea de la misma lengua extranjera que la que se desea convalidar.",
+    table6: "Título de Grado en Filología o equivalente, de la misma especialidad que la lengua extranjera que se desea convalidar.",
+    table7: "Título de Grado Traducción e Interpretación, o equivalente, de la misma especialidad que la lengua extranjera que se desea convalidar.",
+    table8: "0180 2ª Lengua Extranjera.",
+    table9: "Segunda Lengua Extranjera LOGSE. Cuando la lengua extranjera cursada y superada sea la misma que se desea convalidar.",
+    table10: "Certificado del Ciclo Elemental o de Aptitud, de la Escuela Oficial de Idiomas. (RD 967/1988, de 2 de septiembre). (De la misma lengua extranjera que se desea convalidar).",
+    table11: "Certificado de Nivel Intermedio (B1), o superior, de la Escuela Oficial de Idiomas. (RD 1629/2006, de 29 de diciembre). (De la misma lengua extranjera que se desea convalidar).",
+    table12: "Título de Grado, o equivalente, en Filología o en Traducción e Interpretación. (De la misma especialidad que la lengua extranjera que se desea convalidar).",
+    p2: "Por tanto, no es posible, ",
+    pBold1: "EN NINGÚN CASO",
+    p3: ", convalidar este módulo por haber cursado una asignatura universitaria relativa a este idioma."
+}
+
+export const PAGE1_2_5 = {
+    titulo: "1.2.5.- Condiciones para convalidar las Horas de Libre Configuración",
+    p1: "El módulo profesional de ",
+    pBold1: "Horas de Libre Configuración no puede ser objeto de convalidación.",
+    p2: "Este módulo profesional no se evalúa de manera independiente al estar asociado a otro módulo profesional a efectos de evaluación. Cuando un alumno o alumna obtiene la convalidación de este otro módulo profesional (o lo haya superado con anterioridad), queda exento de cursar el de Horas de Libre Configuración."
+}
+
+export const PAGE1_2_6 = {
+    titulo: "1.2.6.- Condiciones para convalidar el módulo de Proyecto",
+    p1: "El módulo profesional de Proyecto correspondiente a títulos de Formación profesional de grado superior no podrá ser objeto de convalidación ni de exención en ningún caso."
+}
+
+export const PAGE1_2_7 = {
+    titulo: "1.2.7.- Exención de la FCT",
+    p1: "El módulo profesional de Formación en Centros de Trabajo nunca será susceptible de convalidación, sino de exención total o parcial. Se podrá calificar como exento por correspondencia total o parcial con la experiencia laboral demostrable relacionada con los estudios profesionales respectivos. Para ello se requiere la matriculación previa del alumno en el módulo.",
+    p2: "Se debe acreditar, tanto para la exención total como para la parcial, una experiencia laboral equivalente al trabajo a tiempo completo de, al menos, un año, que permita demostrar que la persona solicitante tiene adquiridos los resultados de aprendizaje del módulo profesional de formación en centros de trabajo. En el caso de contratos a tiempo parcial, los días de cotización deberán ser equivalentes a un año a tiempo completo.",
+    p3: "Para solicitar la exención de la FCT ",
+    pBold1: "deberás enviar por correo certificado, y preferiblemente con acuse de recibo, a la atención de la Dirección de tu centro",
+    p4: " lo siguiente:",
+    pBold2: "Anexo I",
+    p5: " (solicitud de exención) de la Orden de 28 de septiembre de 2011, por la que se regulan los módulos profesionales de formación en centros de trabajo y de proyecto para el alumnado matriculado en centros docentes de la Comunidad Autónoma de Andalucía. ",
+    p6: "Puedes obtener aquí el impreso solicitud exención FCT",
+    p7: ".",
+    pBold3: "Documentación acreditativa",
+    p8: " que justifique la experiencia laboral.",
+    pBold4: "Información sobre la exención de la FCT:",
+    p9: 'Apartado "¿Cómo se solicita la exención del módulo profesional de Formación en Centros de Trabajo (FCT)?", en el siguiente enlace: ',
+    p10: "Convalidaciones entre módulos profesionales"
+}

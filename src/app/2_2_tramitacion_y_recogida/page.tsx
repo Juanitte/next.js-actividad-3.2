@@ -1,67 +1,59 @@
-import { HOME } from "@/utils/literals";
+import { PAGE2_2 } from "@/utils/literals";
 import Image from "next/image";
-import tutorAndStudent from "@/app/img/tutor-and-student.png";
-import publicDomain from "@/app/img/public-domain.png";
+import _2_2 from "@/app/img/2_2.png";
+import ccbync from "@/app/img/ccbync.webp";
 import Titulo from "@/components/titulo";
-import TableComponent from "@/components/table-component";
-import { Table } from "@/model/Table";
-import { Tr } from "@/model/Tr";
-import { Td } from "@/model/Td";
 import Nav from "@/components/nav";
+import ItemLista from "@/components/item-lista";
 
 export default function Home() {
   return (
     <>
-      <Titulo>{HOME.titulo}</Titulo>
-      <Nav pos={0}/>
-      <div className="flex flex-row pb-2">
-        <div className="flex flex-col">
-          <p className="text-black px-4 max-w-[66vw] leading-tight text-justify">
-            {HOME.p1}
-          </p>
-          <p className="text-black pt-3 px-4">
-            {HOME.p2}
+      <Titulo>{PAGE2_2.titulo}</Titulo>
+      <Nav pos={23}/>
+      <div className="flex flex-row pb-2 text-sm">
+        <div className="flex flex-col w-[85%]">
+          <p className="text-black px-4 leading-tight text-justify pb-4">
+            {PAGE2_2.p1}
           </p>
         </div>
-        <div className="flex flex-col">
-          <Image src={tutorAndStudent} alt="tutor and student" width={140} height={140} className="pt-2 pl-4" />
-          <div className="flex flex-row justify-between items-center ">
-            <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.es" className="pt-2">
-              <Image src={publicDomain} alt="public domain" width={70} height={60} />
+        <div className="flex flex-col items-center w-[15%]">
+          <Image src={_2_2} alt="tutor and student" width={200} height={200} />
+          <div className="flex flex-row">
+            <a href="https://creativecommons.org/licenses/by-nc/3.0/deed.es">
+              <Image src={ccbync} alt="ccbync" width={90} height={50} />
             </a>
-            <div className="flex flex-row pt-2 pl-1">
-              <p className="text-black text-[9px]">
-                {HOME.imgLink1}
-              </p>
-              <a href="https://openclipart.org/detail/194249/tutor-and-student" className="text-blue-500 text-[9px] pl-1 underline">
-                {HOME.imgLink2}
+            <p className="py-4 text-black text-[9px]">
+              {PAGE2_2.imgLink1}
+              <a href="https://openclipart.org/detail/191069/happy-girl" className="text-blue-500 underline">
+                {PAGE2_2.imgLink2}
               </a>
-            </div>
-          </div>
+            </p>
+          </div>  
         </div>
       </div>
-      <TableComponent table={new Table(
-        [
-          new Tr(
-            [
-              new Td(`${HOME.elaboradoTitulo}`, 10, "vw", 1, 1, true),
-              new Td(`${HOME.elaboradoContenido}`, 50, "vw", 1, 1, false)
-            ]
-          ),
-          new Tr(
-            [
-              new Td(`${HOME.versionTitulo}`, 10, "vw", 1, 1, true),
-              new Td(`${HOME.versionContenido}`, 50, "vw", 1, 1, false)
-            ]
-          ),
-          new Tr(
-            [
-              new Td(`${HOME.fechaTitulo}`, 10, "vw", 1, 1, true),
-              new Td(`${HOME.fechaContenido}`, 50, "vw", 1, 1, false)
-            ]
-          )
-        ]
-      )} />
+      <div className="flex flex-col p-6 bg-[#c3dcf7] w-[75vw] rounded-xl justify-self-center text-sm">
+          <p className="text-justify text-[#153152] leading-tight pb-4">
+            {PAGE2_2.p2}
+          </p>
+          <ItemLista interior={false}>
+            <p className="text-justify text-[#153152] leading-tight pb-4">
+              {PAGE2_2.p3}
+              <a href="https://www.juntadeandalucia.es/boja/1996/67/50" className="text-blue-500 underline">
+                {PAGE2_2.p4}
+              </a>
+              {PAGE2_2.p5}
+            </p>
+          </ItemLista>
+          <ItemLista interior={false}>
+            <p className="text-justify text-[#153152] leading-tight pb-4">
+              {PAGE2_2.p6}
+              <a href="https://www.boe.es/buscar/doc.php?id=BOE-A-2020-342" className="text-blue-500 underline">
+                {PAGE2_2.p7}
+              </a>
+            </p>
+          </ItemLista>
+        </div>
     </>
   );
 }

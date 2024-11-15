@@ -323,3 +323,233 @@ export const PAGE1_2_7 = {
     p9: 'Apartado "¿Cómo se solicita la exención del módulo profesional de Formación en Centros de Trabajo (FCT)?", en el siguiente enlace: ',
     p10: "Convalidaciones entre módulos profesionales"
 }
+
+export const PAGE1_3 = {
+    titulo: "1.3.- ¿Puedo convalidar un módulo acreditando experiencia laboral?",
+    pBold1: "Salvo el módulo de Formación en Centros de Trabajo ",
+    pItalic1: '(las "prácticas")',
+    pBold2: ", la respuesta es no.",
+    p1: " En general, ",
+    pBold3: "no es posible convalidar un módulo acreditando experiencia laboral a través de un informe de vida laboral.",
+    p2: "Si alguna persona cree que con su experiencia profesional ha adquirido las competencias necesarias de un módulo concreto, debe acreditar la posesión de esas unidades de competencia bien mediante un ",
+    pBold4: "certificado de profesionalidad",
+    p3: " o bien porque ha participado en un ",
+    pBold5: "procedimiento de acreditación de competencias profesionales",
+    p4: " y así se lo han reconocido, ",
+    pUnderline1: "no a través de un certificado de vida laboral",
+    p5: ". ",
+    pBold6: "Tampoco serán válidos los resguardos de haber solicitado el certificado de profesionalidad, los diplomas o certificados de asistencia expedidos por el centro o entidad de formación u otros documentos justificativos distintos de los indicados.",
+    p6: " Estas convalidaciones se regulan en el anexo V.A del Real Decreto que crea el título que se está estudiando (en este anexo se indican las unidades de competencia que se adquieren al superar cada módulo profesional).",
+    p7: "Por tanto, ",
+    pBold7: "las unidades de competencia debidamente acreditadas pueden ser aportadas para solicitar la convalidación de módulos profesionales según lo regulado en el anexo V.A del Real Decreto",
+    p8: " que regula cada título siempre que se aporte el ",
+    pBold8: "certificado de profesionalidad",
+    p9: " o la ",
+    pBold9: "certificación oficial de la acreditación de la Unidad de Competencia.",
+    imgLink1: "Imagen en ",
+    imgLink2: "Pixabay",
+    imgLink3: " de ",
+    imgLink4: "Voltamax",
+    imgLink5: " bajo ",
+    imgLink6: "CC"
+}
+
+export const PAGE1_4 = {
+    titulo: "1.4.- ¿Qué organismo resuelve las convalidaciones?",
+    p1: "Las convalidaciones recogidas expresamente en los ",
+    pBold1: "diferentes Anexos del ",
+    pBold2: "RD 1085/2020, de 9 de diciembre",
+    p2: " las resuelve la dirección del centro donde esté matriculado el alumno/a. Se ",
+    pBold3: "resolverá negativamente aquellas solicitudes de su competencia que no aparezcan en los anexos anteriormente citados.",
+    p3: "Aquellas solicitudes que acrediten para convalidar ",
+    pBold4: "una titulación universitaria o un título de FP1 o FP2",
+    p4: " las resuelve el ",
+    pBold5: "Ministerio de Educación y Formación Profesional",
+    p5: ". Estas últimas convalidaciones se envían al centro y se trasladan al Ministerio. ",
+    pBold6: "En ningún caso el alumnado podrá enviar directamente la solicitud de convalidación al Ministerio."
+}
+
+export const PAGE1_5 = {
+    titulo: "1.5.- ¿Qué documentación debo enviar al centro?",
+    p1: "Debes presentar la solicitud de convalidación de módulos profesionales, acompañada de la documentación establecida correspondiente, en el centro. ",
+    pBold1: "En ningún caso puedes enviar por tu cuenta la solicitud al Ministerio.",
+    pBold2: "Solicitud de convalidación",
+    p2: " que encuentras en este ",
+    pBold3: 'enlace (ver "Impreso solicitud convalidación módulos profesionales")',
+    p3: ". En ese documento es imprescindible que cumplimentes todos los apartados. En este ",
+    pBold4: "enlace",
+    p4: " puedes consultar los módulos de cada ciclo impartido con ",
+    pBold5: 'su nombre y el código exacto. Para ello, debes desplegar dentro de cada centro, el apartado "Módulos ofertados de este ciclo". Recuerda que el plazo para enviar la solicitud de convalidación concluye a finales de octubre.',
+    pBold6: "Fotocopia del Documento Nacional de Identidad",
+    p5: " (DNI) o fotocopia del Pasaporte o de la Tarjeta de Extranjero/a o del Permiso de Residencia (temporal o definitivo) o del Visado de Estudios.",
+    p6: "Además, debe incluirse la siguiente documentación, ",
+    pBold7: "ya sea original o fotocopia compulsada",
+    p7: " (recuerda que puedes compulsar un documento en cualquier Administración Pública que cuente con registro simplemente presentando la copia y enseñando el original):",
+    pBold8: "Certificación académica oficial expedida por el centro docente donde has cursado los estudios que alegas",
+    p8: ". En el caso de estudios universitarios, es obligatorio presentar original o fotocopia compulsada de la certificación académica oficial, con indicación de las horas o créditos de cada materia superada.",
+    pBold9: "En el caso de alegar un título que acredite la formación previa alegada, debes presentar el título oficial o resguardo de haberlo solicitado",
+    p9: ". En el caso de que desees convalidar alegando haber cursado otro ciclo formativo, es suficiente con el certificado académico de notas y no es necesario que adjuntes también la copia del título o el resguardo de haberlo solicitado.",
+    pBold10: "En el caso de alegar enseñanzas universitarias, además de la certificación académica oficial con indicación de las horas o créditos de cada materia superada, deberás presentar ",
+    pBold11: "los programas de las asignaturas que haya cursado sellados ",
+    pUnderline1: "(el sello debe ser original y no vale una fotocopia del programa en el que el sello no sea original) por el centro universitario",
+    p10: ". Estos programas deben recoger la ",
+    pBold12: "duración y contenidos teóricos y prácticos estudiados.",
+    pBold13: "En el caso de alegar unidades de competencia oficialmente acreditadas, certificación oficial de la acreditación de la Unidad de Competencia o Certificado de profesionalidad expedido por la Administración Laboral competente, obtenido de acuerdo con lo establecido en el RD 34/2008, de 18 de enero.",
+    pBold14: "Aunque ya se ha dicho anteriormente, se recuerda que ",
+    pBold15: "todos los documentos (excepto el DNI y el documento de la solicitud de convalidación) tienen que ser original o copia compulsada",
+    pBold16: ". ",
+    pBold17: "También se recuerda que el centro no puede tramitar ante el Ministerio de Educación ninguna solicitud que no venga acompañada de la documentación establecida.",
+    pBold18: "El solicitante deberá estar matriculado en los módulos profesionales que solicita convalidar y haber satisfecho los derechos de matrícula en las enseñanzas para las cuales solicita la convalidación.",
+    pBold19: "Las convalidaciones entre estudios universitarios y de Formación Profesional se podrán solicitar cuando estos últimos pertenezcan al espacio de la educación superior",
+    p11: ". Además, el número de módulos profesionales de los ciclos de grado superior convalidados ",
+    pBold20: "no podrá superar el 60% de la totalidad de créditos ECTS",
+    p12: " establecidos en el real decreto por el que se establece el título Técnico Superior y se fijan los aspectos básicos del currículo, siempre que se aporten ",
+    pBold21: "enseñanzas universitarias que estén relacionadas con el campo de conocimiento y exista similitud entre las competencias, conocimientos y resultados de aprendizaje.",
+    imgLink1: "Imagen en ",
+    imgLink2: "Pixabay",
+    imgLink3: " de ",
+    imgLink4: "OpenClipart-Vectors",
+    imgLink5: " bajo ",
+    imgLink6: "CC"
+}
+
+export const PAGE1_6 = {
+    titulo: "1.6.- ¿Cómo conseguir el programa de una asignatura universitaria?",
+    p1: "Las convalidaciones ",
+    pBold1: "basadas en una o varias asignaturas universitarias no se resuelven en el centro, solo se reciben y envían al Ministerio para su resolución",
+    p2: ". La experiencia nos dice que debes respetar los requisitos establecidos por el Ministerio.",
+    p3: "Además de la certificación académica oficial, el ",
+    pBold2: "Ministerio exige que presentes los programas de las asignaturas sellados originalmente por la universidad. Este último requisito es indispensable. En caso de que no se envíen los programas sellados, no se podrá enviar la solicitud de convalidación. No importa si presentas el título universitario y el certificado:",
+    p4: " sin programas sellados no hay convalidación.",
+    p5: "¿Cómo conseguir los programas sellados? Es posible que hayas perdido los programas de cuando estudiaste en la Universidad, o si los tienes que no estén sellados, o en el peor de los casos, que ya no vivas ni siquiera donde estudiaste y no puedas desplazarte. Por eso no hay problema, siempre que tengas un poco de paciencia y quieras hacer lo que te proponemos, es muy probable que los consigas y puedas presentar tu solicitud de convalidación acompañada de los programas.",
+    p6: "Para ello, sigue los siguientes pasos:",
+    p7: "Haz una lista de las asignaturas relacionadas con el módulo que quieres convalidar.",
+    p8: "Selecciona los departamentos responsables de esas asignaturas.",
+    p9: "Entra en la web de la Universidad en la que estudiaste y busca los departamentos del apartado anterior. Localiza el teléfono del jefe/director del departamento y la dirección de correo.",
+    p10: "Contacta por teléfono con el departamento y/o envía un correo con la siguiente información:",
+    pItalic1: "Buenos días.",
+    pItalic2: "Mi nombre es XXXX. Cursé la licenciatura/diplomatura/grado en XXX en la Facultad de XXXX Promoción 20XX-20XX y actualmente curso otros estudios para los que necesito el programa ",
+    pBoldItalic1: "sellado",
+    pItalic3: " por el centro universitario en cuestión de las siguientes asignaturas:",
+    pItalic4: "XXXXX. curso, 20XX-20XX",
+    pItalic5: "XXXXX. curso, 20XX-20XX",
+    pItalic6: "Les agradecería si me pudiesen decir cómo conseguirlo o si me lo pudiesen enviar a la siguiente dirección: XXXX",
+    pItalic7: "De no ser así, dígame cómo puedo hacerlo.",
+    pItalic8: "De nuevo, gracias por su amabilidad.",
+    pItalic9: "Saludos cordiales."
+}
+
+export const PAGE1_7 = {
+    titulo: "1.7.- ¿Cómo saber si me convalidarán un módulo si he alegado estudios universitarios?",
+    p1: "No se puede saber a priori.",
+    p2: "Por eso el Ministerio de Educación y Formación Profesional solicita los programas universitarios sellados: para poder analizar caso a caso y de forma individualizada cada convalidación.",
+    p3: "El Ministerio de Educación y Formación Profesional tiene en su página Web información sobre la convalidación de módulos profesionales aportando estudios universitarios. La podéis encontrar en este ",
+    p4: "enlace",
+    p5: "."
+}
+
+export const PAGE1_8 = {
+    titulo: "1.8.- ¿Cuándo tendré noticias sobre si se ha aprobado la convalidación?",
+    p1: "En primer lugar, hay que recordar que ",
+    pBold1: "solo se pueden convalidar módulos en los que estás debidamente matriculado. La matrícula solo se da por finalizada cuando concluya el pago de las tasas",
+    p2: ". Por tanto, hasta que el centro no tenga constancia del pago, no se podrá proceder a reconocer la convalidación. De esta forma, si el pago se retrasa cabría la posibilidad de que la resolución de la convalidación también se retrasara.",
+    p3: "Si ",
+    pBold2: "la convalidación la debe resolver el Ministerio, el plazo se alarga más, ya que",
+    p4: " no se puede remitir la documentación a ese organismo hasta tener la constancia del pago realizado. En los últimos años, la resolución del Ministerio ha llegado bien entrado el año nuevo. ",
+    pBold3: "Por eso es conveniente que presentes tu solicitud lo antes posible.",
+    p5: " Una vez resuelta la convalidación, el Ministerio de Educación y Formación Profesional se pondrá directamente en contacto contigo, a través del correo electrónico que hayas facilitado en la solicitud de convalidación, para comunicarte el resultado y para que te descargues la resolución desde su Sede Electrónica. Si te han concedido la convalidación, deberás presentar la resolución en el centro para que la anoten en tu expediente académico. ",
+    pBold4: "Es en este momento, y no antes, cuando tienes formalmente el módulo convalidado.",
+    pBold5: "El Ministerio informa que se debe empezar a trabajar el módulo, con independencia de haber solicitado la convalidación, por si al llegar la resolución esta es negativa.  Durante el tiempo que el Ministerio informe al alumno/a de la resolución de la convalidación del módulo solicitado, es imprescindible que participe en las actividades a distancia (entrega de tareas, participación en foros, etc.) como obligación dentro del proceso de evaluación continua.",
+    imgLink1: "Imagen en ",
+    imgLink2: "Pixabay",
+    imgLink3: " de ",
+    imgLink4: "Webandi",
+    imgLink5: " bajo ",
+    imgLink6: "CC"
+}
+
+export const PAGE1_9 = {
+    titulo: "1.9.- ¿Qué efectos tendrá la convalidación en mi expediente?",
+    p1: "Cada módulo profesional convalidado se recogerá en los documentos académicos, a efectos de cálculo de la nota media del ciclo formativo de Formación Profesional, con la calificación obtenida por el solicitante en el módulo profesional cursado que conste en la documentación académica correspondiente.",
+    pBold1: "Los módulos profesionales convalidados con estudios universitarios, así como los que se convaliden aportando estudios anteriores a la LOGSE, unidades de competencia o certificación académica oficial de idioma no llevarán asignada ninguna puntuación",
+    p2: ", constando en el expediente del alumnado como convalidado y no computarán a efectos de cálculo de la nota media del ciclo formativo.",
+    imgLink1: "Imagen en ",
+    imgLink2: "Pixabay",
+    imgLink3: " de ",
+    imgLink4: "OpenClipart-Vectors",
+    imgLink5: " bajo ",
+    imgLink6: "CC"
+}
+
+export const PAGE1_10 = {
+    titulo: "1.10.- Enlaces relacionados",
+    p1: "Además de los enlaces que han ido apareciendo a lo largo de este documento, en estos enlaces encontrarás más información sobre las convalidaciones en la Formación Profesional:",
+    p2: "Información sobre ",
+    pBold1: "convalidaciones en la página web de FP Andalucía.",
+    p3: "Información sobre ",
+    pBold2: "convalidaciones en la página web del Ministerio de Educación.",
+    pBold3: "Normativa de apoyo",
+    p4: " para las convalidaciones en FP.",
+    imgLink1: "Imagen en ",
+    imgLink2: "Pixabay",
+    imgLink3: " de ",
+    imgLink4: "Clker-Free-Vector-Images",
+    imgLink5: " bajo ",
+    imgLink6: "CC"
+}
+
+export const PAGE2 = {
+    titulo: "2.- Solicitud del título",
+    p1: "Aquí encontrarás los pasos a seguir para solicitar el título del ciclo una vez hayas superado todos los módulos formativos que lo conforman.",
+    p2: "Certificado"
+}
+
+export const PAGE2_1 = {
+    titulo: "2.1.- Solicitud",
+    p1: "Para solicitar el título ",
+    pBold1: "deberás dirigirte al Centro docente donde finalizaste los estudios",
+    p2: " conducentes a la obtención del título solicitado. Debe ser solicitados por los alumnos, previo pago de las tasas correspondientes.",
+    p3: "Debes cumplimentar e imprimir el modelo 046 de autoliquidación de tasas de la Junta de Andalucía disponible en el siguiente enlace: ",
+    p4: "Modelo 046",
+    p5: ". En el apartado OBLIGADO AL PAGO, se deben cumplimentar los datos personales y de domiciliación del solicitante. En el apartado DATOS GENERALES, se debe marcar la casilla AUTOLIQUIDACIÓN. En el cuadro de texto situado debajo se indica el título que se solicita. Se escribirá la fecha en la que se va a realizar y la liquidación. En el código territorial pueden utilizarse los desplegables y seleccionar en código órgano territorial CONSEJERÍA DE EDUCACIÓN Y DEPORTE, en   Código provincia, la provincia donde se localice el centro y en Código centro, seleccionamos el centro donde superé el último módulo. En concepto de pago se indicará el código 0049 o bien se utilizará el desplegable y se seleccionará TASA POR EXPEDICIÓN DE TÍTULOS ACADÉMICOS Y PROFESIONALES.",
+    p6: "Se valida el documento, y nos da la opción de imprimirlo para presentarlo en la entidad bancaria y pagar o bien realizar el pago telemático. El pago telemático requiere tener certificado digital.",
+    p7: "El resto del documento será impreso mecánicamente por la entidad bancaria en el momento de realizar el ingreso si se opta por la impresión y presentación en la oficina bancaria.",
+    p8: "Una vez realizado el pago, la entidad bancaria se queda con una de las copias del modelo (el talón de cargo); le entregará al solicitante el ejemplar para el interesado y el ejemplar para la Administración. El ejemplar para la Administración se lo quedará el centro docente.  El ejemplar para el interesado se lo devolverá el centro sellado,  sirviéndole de resguardo de solicitud.",
+    p9: "Se remitirá al centro docente por correo postal (preferiblemente certificado con acuse de recibo) la siguiente documentación:",
+    pBold2: "Fotocopia DNI por ambas caras.",
+    pBold3: "Impreso de solicitud cumplimentado. ",
+    p10: "Descargar impreso de solicitud ",
+    p11: "(27155 B)",
+    pBold4: "Impreso 046",
+    p12: " (se debe enviar el ",
+    pBold5: "ejemplar para la administración",
+    p13: " y también el ",
+    pBold6: "ejemplar para el interesado",
+    p14: ", que se devolverá sellado por el centro como resguardo del título).",
+    p15: "Si deseas recibir la certificación académica con todas las calificaciones obtenidas en el ciclo, has de comunicarlo cuando envíes todos los documentos al centro.",
+    p16: "Ten en cuenta que la cantidad a ingresar la indica la Ley de Presupuesto de la Comunidad Autónoma de Andalucía que esté en vigor. Pregunta a tu tutor/a el importe que has de abonar teniendo en cuenta que los decimales has de escribirlos empleando la coma."
+}
+
+export const PAGE2_2 = {
+    titulo: "2.2.- Tramitación y recogida",
+    p1: "Cuando el centro en el que pides el título reciba la documentación, te devolverá el resguardo indicando que el título se encuentra en trámite. Resguardo que deberás guardar junto con el ejemplar para el interesado del impreso 046 hasta la llegada del título. Este puede tardar varios años en llegar al centro, será entonces cuando se te comunicará por correo que ya puedes recogerlo (también podrás recibirlo a través de las Delegaciones Territoriales).",
+    p2: "Puedes encontrar más información al respecto:",
+    p3: "En el artículo 7 de la ",
+    p4: "ORDEN de 21 de mayo de 1996, por la que se regulan el procedimiento de expedición y la organización y funcionamiento del Registro de los títulos académicos y profesionales correspondientes a las enseñanzas establecidas por la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo",
+    p5: " y",
+    p6: "En el ",
+    p7: "Real Decreto 700/2019, de 29 de noviembre, por el que se modifica el Real Decreto 1850/2009, de 4 de diciembre, sobre expedición de títulos académicos y profesionales correspondientes a las enseñanzas establecidas por la Ley Orgánica 2/2006, de 3 de mayo, de Educación, para fijar el formato, el contenido y el soporte documental del Suplemento Europeo al Título de las Enseñanzas Artísticas.",
+    imgLink1: " Scout ",
+    imgLink2: "Happy Girl"
+}
+
+export const VERSION_RECORD = {
+    titulo: "Historial de versiones",
+    pBold1: "5.0 Actualización de enlaces en apartados 1.2, 1.27, 1.4, 1.5, 1.7, 1.10, 2.1 y 2.2. Actualización de texto en apartados: Introducción, 1.1, 1.1.1, 1.1.2, 1.2, 1.2.1, 1.2.2, 1.2.3,1.2.4, 1.2.7 (antiguo 1.2.6), 1.3, 1.4, 1.5, 1.7, 1.9, 2.1 y 2.2. Inclusión del apartado 1.2.6 que desplaza el antiguo a 1.2.7. Eliminación del apartado 1.8.1 (3/03/2022).",
+    p1: "4.0 Actualización de enlaces en apartados 1.1.2, 1.5 y 1.10 (11/09/2020).",
+    p2: "3.2. Modificación en el apartado 1.1. del plazo para recoger las solicitudes de convalidación. Revisión y restauración de enlaces (18/09/2019).",
+    p3: '3.1. Modificación párrafo en apartado "2.1 Solicitud", para la entrega al centro del modelo 046 (25/01/2019).',
+    p4: '3.0. Actualización del apartado "Convalidaciones en FP" ampliando la información al respecto en nuevos sub-apartados (10/10/2018).',
+    p5: '2.0. Actualización de apartado "Solicitud del título" y su demostración. Creación de una primera sección sobre las convalidaciones (12/06/2017).',
+    p6: '1.0. Versión inicial (16/04/2015).'
+}

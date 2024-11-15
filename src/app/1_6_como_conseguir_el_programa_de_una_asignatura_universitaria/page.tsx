@@ -1,67 +1,101 @@
-import { HOME } from "@/utils/literals";
-import Image from "next/image";
-import tutorAndStudent from "@/app/img/tutor-and-student.png";
-import publicDomain from "@/app/img/public-domain.png";
+import { PAGE1_6 } from "@/utils/literals";
 import Titulo from "@/components/titulo";
-import TableComponent from "@/components/table-component";
-import { Table } from "@/model/Table";
-import { Tr } from "@/model/Tr";
-import { Td } from "@/model/Td";
 import Nav from "@/components/nav";
+import ItemLista from "@/components/item-lista";
 
 export default function Home() {
   return (
     <>
-      <Titulo>{HOME.titulo}</Titulo>
-      <Nav pos={0}/>
-      <div className="flex flex-row pb-2">
-        <div className="flex flex-col">
-          <p className="text-black px-4 max-w-[66vw] leading-tight text-justify">
-            {HOME.p1}
+      <Titulo>{PAGE1_6.titulo}</Titulo>
+      <Nav pos={16}/>
+      <div className="flex flex-col pb-2">
+        <div className="flex flex-col text-sm">
+          <p className="text-black px-4 leading-tight text-justify pb-4">
+            {PAGE1_6.p1}
+            <span className="font-bold">
+              {PAGE1_6.pBold1}
+            </span>
+            {PAGE1_6.p2}
           </p>
-          <p className="text-black pt-3 px-4">
-            {HOME.p2}
+          <p className="text-black px-4 leading-tight text-justify pb-4">
+            {PAGE1_6.p3}
+            <span className="font-bold">
+              {PAGE1_6.pBold2}
+            </span>
+            {PAGE1_6.p4}
           </p>
-        </div>
-        <div className="flex flex-col">
-          <Image src={tutorAndStudent} alt="tutor and student" width={140} height={140} className="pt-2 pl-4" />
-          <div className="flex flex-row justify-between items-center ">
-            <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.es" className="pt-2">
-              <Image src={publicDomain} alt="public domain" width={70} height={60} />
-            </a>
-            <div className="flex flex-row pt-2 pl-1">
-              <p className="text-black text-[9px]">
-                {HOME.imgLink1}
-              </p>
-              <a href="https://openclipart.org/detail/194249/tutor-and-student" className="text-blue-500 text-[9px] pl-1 underline">
-                {HOME.imgLink2}
-              </a>
-            </div>
-          </div>
+          <p className="text-black px-4 leading-tight text-justify pb-4">
+            {PAGE1_6.p5}
+          </p>
+          <p className="text-black px-4 leading-tight text-justify pb-4">
+            {PAGE1_6.p6}
+          </p>
+          <ItemLista interior={false}>
+            <p className="text-black px-4 leading-tight text-justify">
+              {PAGE1_6.p7}
+            </p>
+          </ItemLista>
+          <ItemLista interior={false}>
+            <p className="text-black px-4 leading-tight text-justify">
+              {PAGE1_6.p8}
+            </p>
+          </ItemLista>
+          <ItemLista interior={false}>
+            <p className="text-black px-4 leading-tight text-justify">
+              {PAGE1_6.p9}
+            </p>
+          </ItemLista>
+          <ItemLista interior={false}>
+            <p className="text-black px-4 leading-tight text-justify">
+              {PAGE1_6.p10}
+            </p>
+          </ItemLista>
+          <p className="text-black px-4 leading-tight text-justify pt-4">
+            <span className="italic">
+              {PAGE1_6.pItalic1}
+            </span>
+          </p>
+          <p className="text-black px-4 leading-tight text-justify pt-4">
+            <span className="italic">
+              {PAGE1_6.pItalic2}
+              <span className="font-bold underline">
+                {PAGE1_6.pBoldItalic1}
+              </span>
+              {PAGE1_6.pItalic3}
+            </span>
+          </p>
+          <p className="text-black px-4 leading-tight text-justify pt-4">
+            <span className="italic">
+              {PAGE1_6.pItalic4}
+            </span>
+          </p>
+          <p className="text-black px-4 leading-tight text-justify pt-4">
+            <span className="italic">
+              {PAGE1_6.pItalic5}
+            </span>
+          </p>
+          <p className="text-black px-4 leading-tight text-justify pt-4">
+            <span className="italic">
+              {PAGE1_6.pItalic6}
+            </span>
+          </p>
+          <p className="text-black px-4 leading-tight text-justify pt-4">
+            <span className="italic">
+              {PAGE1_6.pItalic7}
+            </span>
+          </p>
+          <p className="text-black px-4 leading-tight text-justify pt-4">
+            <span className="italic">
+              {PAGE1_6.pItalic8}
+            </span>
+          </p>
+          <p className="text-black px-4 leading-tight text-justify pt-4">
+            <span className="italic">
+              {PAGE1_6.pItalic9}
+            </span>
+          </p>
         </div>
       </div>
-      <TableComponent table={new Table(
-        [
-          new Tr(
-            [
-              new Td(`${HOME.elaboradoTitulo}`, 10, "vw", 1, 1, true),
-              new Td(`${HOME.elaboradoContenido}`, 50, "vw", 1, 1, false)
-            ]
-          ),
-          new Tr(
-            [
-              new Td(`${HOME.versionTitulo}`, 10, "vw", 1, 1, true),
-              new Td(`${HOME.versionContenido}`, 50, "vw", 1, 1, false)
-            ]
-          ),
-          new Tr(
-            [
-              new Td(`${HOME.fechaTitulo}`, 10, "vw", 1, 1, true),
-              new Td(`${HOME.fechaContenido}`, 50, "vw", 1, 1, false)
-            ]
-          )
-        ]
-      )} />
     </>
   );
 }

@@ -1,67 +1,63 @@
-import { HOME } from "@/utils/literals";
+import { PAGE1_10 } from "@/utils/literals";
 import Image from "next/image";
-import tutorAndStudent from "@/app/img/tutor-and-student.png";
-import publicDomain from "@/app/img/public-domain.png";
+import _1_10 from "@/app/img/1_10.png";
 import Titulo from "@/components/titulo";
-import TableComponent from "@/components/table-component";
-import { Table } from "@/model/Table";
-import { Tr } from "@/model/Tr";
-import { Td } from "@/model/Td";
 import Nav from "@/components/nav";
+import ItemLista from "@/components/item-lista";
 
 export default function Home() {
   return (
     <>
-      <Titulo>{HOME.titulo}</Titulo>
-      <Nav pos={0}/>
-      <div className="flex flex-row pb-2">
-        <div className="flex flex-col">
-          <p className="text-black px-4 max-w-[66vw] leading-tight text-justify">
-            {HOME.p1}
+      <Titulo>{PAGE1_10.titulo}</Titulo>
+      <Nav pos={20}/>
+      <div className="flex flex-col pb-2">
+        <div className="flex flex-col text-sm">
+          <p className="text-black px-4 leading-tight text-justify pb-4">
+            {PAGE1_10.p1}
           </p>
-          <p className="text-black pt-3 px-4">
-            {HOME.p2}
-          </p>
-        </div>
-        <div className="flex flex-col">
-          <Image src={tutorAndStudent} alt="tutor and student" width={140} height={140} className="pt-2 pl-4" />
-          <div className="flex flex-row justify-between items-center ">
-            <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.es" className="pt-2">
-              <Image src={publicDomain} alt="public domain" width={70} height={60} />
-            </a>
-            <div className="flex flex-row pt-2 pl-1">
-              <p className="text-black text-[9px]">
-                {HOME.imgLink1}
-              </p>
-              <a href="https://openclipart.org/detail/194249/tutor-and-student" className="text-blue-500 text-[9px] pl-1 underline">
-                {HOME.imgLink2}
+          <ItemLista interior={false}>
+            <p className="text-black px-4 leading-tight text-justify">
+              {PAGE1_10.p2}
+              <a href="https://www.juntadeandalucia.es/educacion/portals/web/formacion-profesional-andaluza/estudiante/posibilidades-tras-formarme/convalidaciones-modulos" className="text-blue-500 underline font-bold">
+                {PAGE1_10.pBold1}
               </a>
-            </div>
+            </p>
+          </ItemLista>
+          <ItemLista interior={false}>
+            <p className="text-black px-4 leading-tight text-justify">
+              {PAGE1_10.p3}
+              <a href="https://www.todofp.es/convalidaciones-equivalencias-homologaciones/convalidaciones.html" className="text-blue-500 underline font-bold">
+                {PAGE1_10.pBold2}
+              </a>
+            </p>
+          </ItemLista>
+          <ItemLista interior={false}>
+            <p className="text-black px-4 leading-tight text-justify">
+              <a href="https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17274" className="text-blue-500 underline font-bold">
+                {PAGE1_10.pBold3}
+              </a>
+              {PAGE1_10.p4}
+            </p>
+          </ItemLista>
+          <div className="flex flex-col items-center pt-4">
+            <Image src={_1_10} alt="tutor and student" width={300} height={300} className="border border-black" />
+            <p className="py-4 text-black text-[9px]">
+              {PAGE1_10.imgLink1}
+              <a href="https://pixabay.com/es/photos/conferencia-cita-formaci%C3%B3n-1410870/" className="text-blue-500 underline">
+                {PAGE1_10.imgLink2}
+              </a>
+              {PAGE1_10.imgLink3}
+              <a href="https://pixabay.com/es/users/clker-free-vector-images-3736/" className="text-blue-500 underline">
+                {PAGE1_10.imgLink4}
+              </a>
+              {PAGE1_10.imgLink5}
+              <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.es" className="text-blue-500 underline">
+                {PAGE1_10.imgLink6}
+              </a>
+            </p>    
           </div>
         </div>
       </div>
-      <TableComponent table={new Table(
-        [
-          new Tr(
-            [
-              new Td(`${HOME.elaboradoTitulo}`, 10, "vw", 1, 1, true),
-              new Td(`${HOME.elaboradoContenido}`, 50, "vw", 1, 1, false)
-            ]
-          ),
-          new Tr(
-            [
-              new Td(`${HOME.versionTitulo}`, 10, "vw", 1, 1, true),
-              new Td(`${HOME.versionContenido}`, 50, "vw", 1, 1, false)
-            ]
-          ),
-          new Tr(
-            [
-              new Td(`${HOME.fechaTitulo}`, 10, "vw", 1, 1, true),
-              new Td(`${HOME.fechaContenido}`, 50, "vw", 1, 1, false)
-            ]
-          )
-        ]
-      )} />
     </>
   );
 }
